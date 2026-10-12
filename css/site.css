@@ -192,9 +192,8 @@ main { flex: 1; }
 .hero::before {
   content: "";
   position: absolute;
-  inset: -28px;
-  background: url("../assets/hero-gym.png") center/cover no-repeat;
-  filter: blur(18px);
+  inset: 0;
+  background: url("../assets/hero-gym.jpg") center/cover no-repeat;
   z-index: -2;
 }
 .hero::after {
@@ -278,9 +277,8 @@ main { flex: 1; }
 .about-photo::before {
   content: "";
   position: absolute;
-  inset: -36px;
-  background: url("../assets/about-training.png") center/cover no-repeat;
-  filter: blur(22px);
+  inset: 0;
+  background: url("../assets/about-training.jpg") center/cover no-repeat;
 }
 .about-photo::after {
   content: "";
@@ -393,16 +391,12 @@ main { flex: 1; }
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center 12%;
-  filter: blur(20px) grayscale(0.25);
-  transform: scale(1.14);
 }
 .product img {
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   background: #0c0c0c;
-  filter: blur(16px);
-  transform: scale(1.1);
 }
 
 .fighter-meta,
@@ -525,9 +519,8 @@ main { flex: 1; }
 .contact-right::before {
   content: "";
   position: absolute;
-  inset: -36px;
-  background: url("../assets/mma-kids.png") center/cover no-repeat;
-  filter: blur(26px);
+  inset: 0;
+  background: url("../assets/mma-kids.jpg") center/cover no-repeat;
 }
 .contact-right::after {
   content: "";
