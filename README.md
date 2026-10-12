@@ -1,5 +1,7 @@
 # Round 10 Acacías
 
-Sitio web de la academia MMA Round 10. Vista previa en GitHub Pages.
+Sitio web de la academia MMA Round 10. Vista previa en GitHub Pages:
 
-Páginas: inicio, quiénes somos, peleadores, tienda, contacto.
+https://juanmorido.github.io/round10/
+
+Páginas: [inicio](index.html), [quiénes somos](nosotros.html), [peleadores](peleadores.html), [tienda](tienda.html), [contacto](contacto.html).
