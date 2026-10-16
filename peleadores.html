@@ -2,12 +2,87 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=index.html" />
-  <link rel="canonical" href="index.html" />
-  <title>Round 10 Acacías</title>
-  <script>location.replace("index.html");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Peleadores · Round 10 Acacías</title>
+  <meta name="description" content="Team Round 10: perfiles, récords y fotos del equipo competitivo de la academia en Acacías." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css?v=3" />
 </head>
 <body>
-  <p><a href="index.html">Ir al inicio</a></p>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Principal">
+      <a class="brand" href="index.html">
+        <span class="logo">R10</span>
+        <span class="brand-name">ROUND <span>10</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-panel">
+        <div class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="nosotros.html">Quiénes somos</a>
+          <a href="peleadores.html" class="on" aria-current="page">Peleadores</a>
+          <a href="tienda.html">Tienda</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <a class="nav-cta" href="contacto.html">Agenda tu clase</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido" class="page-wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Team Round 10</div>
+        <h1>Nuestros peleadores</h1>
+      </div>
+      <p class="note">Perfiles, récords y fotos de muestra para mostrar la estructura de la página. Se reemplazan con el equipo competitivo real de la academia.</p>
+    </div>
+    <div class="grid-fighters">
+      <article class="fighter">
+        <img src="assets/fighter-1.jpg" alt="Foto de muestra, peleador" />
+        <div class="fighter-meta">
+          <div class="tag">MMA · 77 kg</div>
+          <h3>Andrés “Llanero”</h3>
+          <div class="record"><span>Récord <b>6-1</b></span><span>KO / TKO <b>3</b></span></div>
+        </div>
+      </article>
+      <article class="fighter">
+        <img src="assets/fighter-2.jpg" alt="Foto de muestra, peleadora" />
+        <div class="fighter-meta">
+          <div class="tag">Kickboxing · 61 kg</div>
+          <h3>Camila “Pantera”</h3>
+          <div class="record"><span>Récord <b>8-2</b></span><span>Títulos <b>1</b></span></div>
+        </div>
+      </article>
+      <article class="fighter">
+        <img src="assets/fighter-3.jpg" alt="Foto de muestra, peleador" />
+        <div class="fighter-meta">
+          <div class="tag">MMA · 70 kg</div>
+          <h3>Mateo “Toro”</h3>
+          <div class="record"><span>Récord <b>4-0</b></span><span>Prospecto amateur</span></div>
+        </div>
+      </article>
+      <article class="fighter">
+        <img src="assets/fighter-4.jpg" alt="Foto de muestra, peleador" />
+        <div class="fighter-meta">
+          <div class="tag">Grappling · 84 kg</div>
+          <h3>Diego “Sombra”</h3>
+          <div class="record"><span>BJJ <b>Cinturón morado</b></span><span>ADCC trials</span></div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site">
+    <span>Próximas peleas y resultados se publican aquí y en Instagram</span>
+    <a href="https://www.instagram.com/round10tc.acacias/">@round10tc.acacias</a>
+  </footer>
+  <script src="js/site.js"></script>
 </body>
 </html>
